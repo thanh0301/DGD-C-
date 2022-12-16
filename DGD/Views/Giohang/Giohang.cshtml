@@ -1,0 +1,90 @@
+﻿@using DGD.Models
+@model List<GioHang>
+@{
+    ViewBag.Title = "Giohang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+
+    .title-proure {
+        margin-left: 70px;
+    }
+
+    .Giohang {
+        justify-content: space-evenly;
+    }
+
+    .title-giohang ul {
+        list-style: none;
+    }
+
+    .title-giohang li {
+        display: inline-block;
+    }
+
+    .title-proure ul {
+        list-style: none;
+    }
+
+        .title-proure ul li {
+            display: inline-block;
+        }
+
+    .btn__click:hover {
+        background:
+    }
+</style>
+
+@if (Model.Count == 0)
+{
+    <h2 style="text-align:center;padding:30px 0 ;"> Bạn chưa có sản phẩm nào trong giỏ hàng cả</h2>
+    <h3 style="text-align:center;padding:30px 0 ;">Hãy chọn một vài món bỏ vào giỏ hàng nào </h3>
+}
+else
+{
+    <h2 style="text-align:center;padding:30px 0 ;">GIỎ HÀNG</h2>
+    <table style="margin: 50px 210px; width:77%;" align="center" border="1">
+        <tr style="text-align:center; font-weight:bold">
+            <td>Tên sản phẩm</td>
+            <td>Ảnh</td>
+            <td>Đơn giá</td>
+            <td>Số lượng</td>
+            <td>Thành tiền</td>
+            <td></td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            using (Html.BeginForm("CapnhatGioHang", "Giohang", new { @iMaSp = item.MaSP }))
+            {
+                <tr style="text-align:center; font-weight:bold">
+                    <td ><a style="color:black;" href="@Url.Action("Detail", "Home", new { id = item.MaSP })">@item.SanPham.TenSp</a></td>
+                    <td><img style="width:200px;" src="~/image/@item.SanPham.anh" /></td>
+                    <td>@String.Format("{0:0,0}", item.SanPham.GiaBan)</td>
+                    <td>
+                        <input  type="number" min="1" name="txtSoluong" value="@item.SL" style=" width:40px;border:none; " />
+                    </td>
+                    <td>@String.Format("{0:0,0}", item.SanPham.GiaBan * item.SL)</td>
+                    <td>
+                        @Html.ActionLink("Xóa", "XoaGiohang", new { @iMaSp = item.MaSP })
+                        <br />
+                        <input type="submit" value="Cập nhật" />
+                    </td>
+                </tr>
+            }
+        }
+        <tr style="text-align:center;">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> @ViewBag.TongSoLuong </td>
+            <td> @String.Format("{0:0,0}", ViewBag.TongTien)</td>
+            <td>
+                <button class="btn__click" style=" border: none; padding: 10px 10px; border-radius: 5px; width: 100px; ">
+                    <p > @Html.ActionLink("Đặt hàng", "DatHang", "Giohang", new { @class = "MenuButtons" })</p>
+                </button>
+            </td>
+        </tr>
+    </table>
+}

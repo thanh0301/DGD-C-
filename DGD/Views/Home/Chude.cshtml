@@ -1,0 +1,30 @@
+﻿@using DGD.MultipleModelInOneView
+@using DGD.Models
+@model ModelDanhMucs
+
+<ul class="list">
+
+    @foreach (var item in Model.DANHMUCs)
+    {
+
+        <li>
+                <a href="@Url.Action("ListSPDanhMuc", "Home" , new { id = item.MaDM , page = 1})"><b>@item.TenDM</b> </a>
+
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+            @*  danh muc con *@
+
+            <ul class="sub-list">
+                @foreach (LoaiSP lOAISANPHAM in Model.LOAISANPHAMs)
+                {
+                    if (lOAISANPHAM.MaDM == item.MaDM)
+                    {
+                        <li><a href="@Url.Action("ListSPLoai", "Home" , new { id = lOAISANPHAM.MaLsp , page = 1})">@lOAISANPHAM.LoaiSP1</a></li>
+                    }
+                }
+            </ul>
+        </li>
+
+    }
+
+</ul>
+

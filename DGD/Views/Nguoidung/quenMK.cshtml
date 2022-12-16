@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "quenMK";
+    Layout = "~/Views/Shared/_LayoutLogi.cshtml";
+}
+
+<h2>quenMK</h2>
+
+<div class="form__dangnhap">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <div class="container container__dangnhap">
+            <div id="wrapper">
+                <form action="" id="form-login">
+                    <h1 style="padding-top:10px;font-weight:500;" class="form-heading"> Quên mật khẩu</h1>
+                    <div class="form-group">
+                        <i class="far fa-user"></i>
+                        <input name="TenDN1" type="text" class="form-input" placeholder="Email đăng ký">
+                    </div>
+                    <input style="height:40px;" id="bttt" class="btn btn-success" type="Submit" value="Xác Nhận" />
+                </form>
+
+            </div>
+        </div>
+
+
+    }
+</div>
+
+

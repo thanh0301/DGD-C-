@@ -1,0 +1,273 @@
+﻿@using DGD.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .list__menu {
+            display: flex;
+        }
+
+            .list__menu li .dropdown {
+                min-width: 100%; /* Set width of the dropdown */
+                background: #f2f2f2;
+                display: none;
+                position: absolute;
+                z-index: 999;
+            }
+
+          @*  .list__menu li:hover .dropdown {
+                display: block;
+                list-style: none;
+            }
+*@
+            .list__menu a {
+                color: black;
+                font-size: 18px;
+            }
+
+            .list__menu li a:hover {
+                color: red;
+                text-decoration: none;
+            }
+
+        .header__content-right {
+            padding-top: 20px;
+        }
+
+        .header-btn {
+            font-size: 17px;
+            grid-gap: 0 30px;
+        }
+
+            .header-btn ul {
+                list-style: none;
+            }
+
+                .header-btn ul li .dropdown {
+                    display: none;
+                    transition: all 0.5s;
+                }
+
+                .header-btn ul li:hover .dropdown {
+                    display: block;
+                }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .sub-list{
+            margin-left:100px;
+        }
+
+
+        
+        .all__DanhMuc ul {
+            list-style: none;
+            
+        }
+        .list__danhmuc {
+            display: none;
+            margin : 10px 15px;
+        }
+        .all__DanhMuc:hover .list__danhmuc {
+            display: block;
+        }
+        .list__danhmuc ul {
+            display: none;
+            list-style: none;
+        }
+        .sub-list {
+            position: absolute;
+            left: 320px;
+            top: 120px;
+        }
+        .list__danhmuc li {
+            height: 30px;
+            list-style: none;
+        }
+        .list__danhmuc li:hover .sub-list {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header--all">
+            <div class="header--left">
+                <a href="@Url.Action("Trangchu", "Home")">
+                    <img src="https://traffic-edge36.cdn.vncdn.io/nvn/ncdn/store3/116370/logo_1646461670_logo-01.png" width="300px" height="90px" />
+                </a>
+            </div>
+            <div>
+                @using (Html.BeginForm("Search", "Home", FormMethod.Get))
+                {
+                    <div class="header__search hide-on-tablet">
+                        <input style="width:300px; height:40px; margin-top:10px; border:none;" type="text" class="header__input" name="searching" placeholder="Nhập để tìm kiếm">
+                        <button style="width: 50px; height: 40px; border: none;" class="search-icon">
+                            <i class="search-icon-item fas fa-search"></i>
+                        </button>
+                    </div>
+                }
+            </div>
+            <div class="header__content-right">
+                <div class="header-btn">
+                    @Html.Action("YeuThichPartial", "YeuThich")
+                    @Html.Action("GiohangPartial", "Giohang")
+                    @{
+                        var user = (KhachHang)Session["TaiKhoan"];
+
+                        if (user != null)
+                        { <ul>
+                                <li>
+                                    <a href="">Xin chào: @user.TenKH</a>
+                                    <ul class="dropdown">
+                                        <li><a href="@Url.Action("MyProfile","Nguoidung")">Thông tin</a></li>
+                                        <li style=""><a href="@Url.Action("ChangePassword","Nguoidung")">Đổi mật khẩu</a></li>
+                                        <li style=""><a href="@Url.Action("LogOff","Nguoidung")">Đăng xuất</a></li>
+                                        <li style=""><a href="@Url.Action("QLDonHang","Nguoidung")">Quản lý đơn hàng</a></li>
+                                    </ul>
+
+                                </li>
+                            </ul>
+
+                        }
+
+                        else
+                        {
+                            <li><a style="padding-left:10px;" href="@Url.Action("Dangnhap","Nguoidung")">Đăng Nhập</a></li>
+                        }
+                    }
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    @*
+        List menu*@
+
+<div class="list__menu container">
+    <div class="all__DanhMuc">
+        <div class="ten__danhmuc">
+            <a class="all" href="#"><i style="padding-right:10px;" class="fa-sharp fa-solid fa-bars"></i>Tất cả danh mục</a>
+        </div>
+        <div class="list__danhmuc">
+            <a href="@Html.Action("Chude","Home")"></a>
+        </div>
+    </div>  
+
+    <a href="@Html.Action("ChudeonMB","Home")"></a>
+</div>
+
+
+
+
+
+    @RenderBody()
+    <button style="position: fixed; right: 20px; bottom: 20px; z-index: 1; border: none; background: darkorange; border-radius: 50%; " class="backtotop">
+
+        <a style="text-decoration: none;" href="#" class="cd-top text-replace js-cd-top"><i style="display: block; text-align: center; line-height: 32px; width: 32px; height: 32px; border-radius: 50%; font-size: 20px; color:#fff;  " class="fa-sharp fa-solid fa-chevron-up"></i></a>
+
+    </button>
+
+
+
+    @*footer*@
+    <footer class="thanh" id="footer footer1">
+        <div class="container py-5">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h1 class="footer__title fz-30">Thông tin</h1>
+                        <p class="footer__desc">
+                            Địa chỉ : Trường Đại học Công Nghệ TP.HCM - HUTECH
+                        </p>
+                        <p class="footer__desc">SĐT : 0123456789</p>
+                        <p class="footer__desc">Email : tam20011904@gmail.com</p>
+                        <ul class="footer__icon-social">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <h1 class="footer__title mb-4">Chúng tôi ở đây</h1>
+                        <ul class="footer__list">
+                            <li><a href="find.html">Tìm kiếm</a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <h1 class="footer__title mb-4">Giờ mở cửa</h1>
+                        <ul class="footer__list">
+                            <li><a href="#">9:00 - 22:00</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h1 class="footer__title mb-4">Đăng ký nhận thông tin</h1>
+                        <p class="footer__desc">Vui lòng nhập email</p>
+                        <form action="" class="footer__form">
+                            <input type="email"
+                                   name="email"
+                                   placeholder="Your Email Address"
+                                   required />
+                            <button class="diner__btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                        <p>
+                            © 2022 Website - Đồ gia dụng. For All. Design by
+                            <a href="#">MySelf</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <ul class="footer__bottom-list">
+                            <li><a href="#">Hướng dẫn</a></li>
+                            <li><a href="#">Chat</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/util.js"></script>
+    <script src="~/assets/js/img.js"></script>
+    <script src="~/assets/js/1.js"></script>
+</body>
+</html>

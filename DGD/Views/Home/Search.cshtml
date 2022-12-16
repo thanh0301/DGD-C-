@@ -1,0 +1,62 @@
+﻿@model IEnumerable<DGD.Models.SanPham>
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    a:hover {
+        text-decoration:none;
+        color:darkgoldenrod;
+    }
+
+    .icon__click {
+        display: none;
+        transition: all 1s;
+        
+    }
+    .sp__find:hover .icon__click {
+        display: block;
+        transform: translateY(-140px);
+        
+       
+        height:140px;
+        text-align:center;
+    }
+    .sp__find {
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    }
+    .icon__giohang{
+        color:white;
+    }
+</style>
+
+
+<div style="margin: 15px 88px; padding: 10px; background: #334; display: inline-block;">
+    <h3 style="text-align:center; color:#ccc; font-size:12px"> Hiện thị kết quả cho: " @ViewBag.TuKhoa " </h3>
+</div>
+<section style="display:flex; justify-content:center;">
+    <div style="display: grid; grid-template-columns: 350px 350px 350px; grid-auto-rows: 250px 250px; grid-gap: 50px;" class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-4 sp__find">
+                <a style="color:black;" href="@Url.Action("Detail","Home",new{ id=item.MaSP  })">
+                    <img  alt="@item.TenSp" lazy-src="~/image/@item.anh" width="250px" />
+
+                    <h4>@item.TenSp</h4>
+                    <p style="font-size:20px;" class="price">@String.Format("{0:0,0}", item.GiaBan) VND</p>
+                </a>
+                <div style="backdrop-filter: sepia(90%); height: 50px; width: 60%; " class="icon__click">
+                    <div style="display:flex;">
+                        <div style="margin-left:20px; font-size:20px;">
+                            <a class="icon__giohang" href="@Url.Action("ThemGiohang","Giohang", new { @iSanP= item.MaSP , @strURL = Request.Url.ToString() })"> <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <div style="margin-left:20px; font-size:20px;">
+                            <a class="icon__giohang" href="@Url.Action("ThemGiohang","Giohang", new { @iSanP= item.MaSP , @strURL = Request.Url.ToString() })"> <i class="fa-sharp fa-solid fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+

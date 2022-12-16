@@ -1,0 +1,149 @@
+﻿@using DGD.Models
+@model List<GioHang>
+@{
+    ViewBag.Title = "DatHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .thongtin__all{
+        display:flex;
+    }
+    .thongtin__dathang{
+        width:30%;
+        margin-left:100px;
+        margin-top:30px;
+    }
+    .thongtin__khachhang {
+        width: 50%;
+        margin-left: 200px;
+    }
+    .momo{
+        margin-top:30px;
+    }
+</style>
+<div class="thongtin__all">
+
+    <div class="thongtin__dathang">
+
+        <h2 style="text-align:center ; font-size:40px; font-weight:600">Thông tin đặt hàng</h2>
+        <table align="center" border="1"  ">
+
+            <tr style="text-align:center;font-weight:bold; height:100px;">
+                <td>Tên sản phẩm</td>
+                <td>Ảnh bìa</td>
+                <td>Số lượng</td>
+                <td>Đơn Giá </td>
+                <td>Thành tiền</td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr style="text-align:center;font-weight:bold">
+                    <td>@item.SanPham.TenSp</td>
+                    <td><img style="border-radius:5px;" width="200px" src="~/image/@item.SanPham.anh" /></td>
+                    @using (Html.BeginForm("CapnhatGiohang", "Giohang", new { @iMaSp = item.MaSP }))
+                    {
+                        <td>
+                            @item.SL
+                        </td>
+                        <td>@String.Format("{0:0,0}", item.SanPham.GiaBan)</td>
+                        <td>@String.Format("{0:0,0}", item.SanPham.GiaBan*item.SL)</td>
+                    }
+                </tr>
+            }
+            <tr style="font-weight:bold;text-align:right;color:red">
+                <td colspan="3"> Số lượng:@ViewBag.Tongsoluong</td>
+                <td colspan="3"> Tổng tiền:@String.Format("{0:0,0}", ViewBag.Tongtien) VND</td>
+
+            </tr>
+            <tr style="font-weight:bold;text-align:right" ">
+                <td colspan="6">
+                    @Html.ActionLink("Trở về giỏ hàng", "Giohang", "Giohang");
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="thongtin__khachhang ">
+        <h2 style="text-align:center ; font-size:40px; font-weight:600; margin-top:50px; ">Thông tin khách hàng</h2>
+
+        @{
+            KhachHang kh = (KhachHang)Session["Taikhoan"];
+        }
+    <table style="margin:0 100px ; text-align:center" align="center">
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <tr style="height:40px">
+                <td>Họ tên khách hàng :</td>
+                <td style="font-weight">@kh.TenKH</td>
+            </tr>
+            <tr style="height:40px">
+                <td>Địa chỉ khách hàng:</td>
+                <td> @kh.DiaChi</td>
+            </tr>
+            <tr style="height:40px">
+                <td>Số điện thoại : </td>
+                <td>@kh.SDT</td>
+            </tr>
+            
+            <tr>
+                <td > Tổng tiền: </td>
+                <td>@String.Format("{0:0,0}", ViewBag.Tongtien)VND</td>
+            </tr>
+
+    
+       
+            <tr>
+                <td>
+                    <input style="border:none; background:green; border-radius:5px;padding:10px 10px;margin:25px auto; color:#fff;" target="_blank" type="submit" value="Đồng ý đặt hàng" />
+                </td>
+            </tr>
+            
+
+        }
+
+    </table>
+       
+
+
+    <div class="momo">
+        <a style="border:none; background-color:hotpink;border-radius:5px;width:500px;padding:17px 269px; margin:30px auto;font-size:20px;color:#fff;" href="@Url.Action("Payment","ThanhToanMOMO")"> Thanh Toán qua MOMO</a>
+    </div>
+    <div style="margin-top:30px;" id="paypal-button-container"></div>
+    </div>
+</div>
+
+
+
+<script src="https://www.paypal.com/sdk/js?client-id=ARh6ISZ-KkLfR9NpcPd8mjBKPylN7nFrfkgKgkFBckmd_kXNwoicTlIyutvCYmukjNJp5TFU3y3e5n1D"></script>
+<!-- Set up a container element for the button -->
+
+<script>
+    paypal.Buttons({
+        // Sets up the transaction when a payment button is clicked
+        createOrder: (data, actions) => {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                         value: @ViewBag.Tongtien // Can also reference a variable or function
+                    }
+                }]
+            });
+        },
+        // Finalize the transaction after payer approval
+        onApprove: (data, actions) => {
+            return actions.order.capture().then(function (orderData) {
+                // Successful capture! For dev/demo purposes:
+                console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                const transaction = orderData.purchase_units[0].payments.captures[0];
+                alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);
+                // When ready to go live, remove the alert and show a success message within this page. For example:
+                // const element = document.getElementById('paypal-button-container');
+                // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                // Or go to another URL:  actions.redirect('thank_you.html');
+            });
+        }
+    }).render('#paypal-button-container');
+</script>

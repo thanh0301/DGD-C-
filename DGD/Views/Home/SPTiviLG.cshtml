@@ -1,0 +1,56 @@
+﻿@using DGD.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<DGD.Models.SanPham>
+@{
+    ViewBag.Title = "SPTiviLG";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .product-grid-layout {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-auto-rows: 300px 300px;
+        grid-gap: 50px 50px;
+    }
+</style>
+<section style="width: 88%; margin-top: 50px;">
+    <h3 class="linkPage"><a href="@Url.Action("TrangChu", "Home" , new { })">TRANG CHỦ</a> / @ViewBag.Name</h3>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="product-grid-layout">
+                    @foreach (SanPham item in Model)
+                    {
+                        <div style="box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3); border-radius:15px;" class="col-lg-12 col-md-6 col-sm-12 ">
+
+
+                            <img style="border-radius:10px;" alt="@item.TenSp" lazy-src="~/image/@item.anh" width="270px" />
+                            <div style="padding-top: 20px;" class="ten__sp">
+                                <a style="color:black;" href="@Url.Action("Detail", "Home" , new { id = item.MaSP})" class="namePro">@item.TenSp</a>
+                            </div>
+                            <h4 class="price">@String.Format("{0:0,0}", item.GiaBan) VNĐ</h4>
+                            <a href="@Url.Action("ThemGiohang","Giohang", new { @iSanP= item.MaSP , @strURL = Request.Url.ToString() })"> <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    }
+                </div>
+            </div>
+            @*<div class="col-lg-3">
+                    @Html.Action("Chude", "Home")
+                </div>*@
+
+        </div>
+    </div>
+
+    <div class="MenuTrang">
+        @Html.PagedListPager(Model, page => Url.Action("SPTiviLG", new { page = page }))
+    </div>
+    <style>
+        .MenuTrang li {
+            display: inline;
+            background-color: aquamarine;
+        }
+    </style>
+</section>
+
+

@@ -1,0 +1,66 @@
+﻿@model DGD.Models.KhachHang
+
+@{
+    ViewBag.Title = "MyProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var item = Model;
+}
+
+<style>
+    .profile{
+        display:grid;
+        justify-content:center;
+    }
+    .profile {
+        height: 430px;
+        width: 300px;
+        background-color: #9fa4b0;
+        box-shadow: 20px 10px 10px;
+        justify-content: space-around;
+    }
+</style>
+
+<div class="banner-bg-inner">
+</div>
+<div style="margin:100px 40%;" class="myProfile" @*style="width:100%;display:flex; justify-content:center"*@>
+    <!-- strURL :lưu xong reload lại trang-->
+
+    @using (Html.BeginForm(new { strURL = Request.Url.ToString() }))
+    {
+        Html.AntiForgeryToken();
+        <form>
+            <div class="profile">
+                <h3 style="padding-bottom:20px;">HỒ SƠ CỦA TÔI</h3>
+                <div class="form-group">
+                    <label for="name">Họ tên</label>
+                    <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Họ tên" value="@item.TenKH">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="@item.Email">
+                </div>
+                <div class="form-group">
+                    <label for="address">Địa chỉ</label>
+                    <input type="text" class="form-control" id="address" name="address" placeholder="Địa chỉ" value="@item.DiaChi">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Điện thoại</label>
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Điện thoại" value="@item.SDT">
+                </div>
+           
+           
+                <button type="submit" class="btn btn-primary" id="save-btn"><i class="fa fa-save"></i>Lưu</button>
+                <h3 id="Error">@ViewData["Error"]</h3>
+                <h3 id="Success">@ViewData["Success"]</h3>
+            </div>
+        </form>
+    }
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+        function hideURLbar() {
+            window.scrollTo({ top: 380, behavior: 'smooth' });
+        }
+    </script>
+</div>

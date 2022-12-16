@@ -1,0 +1,62 @@
+﻿@model IEnumerable<DGD.Models.CHITIETDONHANG>
+
+@{
+    ViewBag.Title = "QLCTDH";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<p>
+    @Html.ActionLink("Quay lại quản lý đơn hàng", "QLDonHang")
+</p>
+<table class="table" align="center" border="1" class="table">
+    <tr style="text-align:center; font-weight:bold">
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Ảnh
+        </th>
+        <th>
+            Số lượng
+        </th>
+        <th>
+            Giá bán
+        </th>
+        <th>
+            Tổng
+        </th>
+        <th>
+            Thành tiền
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="text-align:center; font-weight:bold">
+            <td>
+                @Html.DisplayFor(modelItem => item.SanPham.TenSp)
+            </td>
+            <td>
+                <img style="width:200px;" src="@Url.Content("~/image/"+item.SanPham.anh)" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluong)
+            </td>
+            <td>
+                @String.Format("{0:0,0}", item.SanPham.GiaBan)
+            </td>
+            <td>@String.Format("{0:0,0}", item.SanPham.GiaBan * item.Soluong)</td>
+        </tr>
+    }
+    <tr style="text-align:center; font-weight:bold">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>@String.Format("{0:0,0}", ViewBag.TongTien)</td>
+    </tr>
+
+</table>
+

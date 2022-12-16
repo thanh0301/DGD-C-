@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Dangnhap";
+    Layout = "~/Views/Shared/_LayoutLogi.cshtml";
+}
+
+<style>
+
+</style>
+<div style=" background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); width: 100%; height: 110vh;">
+
+
+    <div>
+        <h4 style="color:red; text-align:center">@ViewBag.Thongbao</h4>
+
+        <div class="form__dangnhap">
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                <div class="container container__dangnhap">
+                    <div id="wrapper">
+                        <form action="" id="form-login">
+                            <h1 style="padding-top:10px;font-weight:500;" class="form-heading"> Đăng nhập</h1>
+                            <div class="form-group">
+                                <i class="far fa-user"></i>
+                                <input name="TenDN" type="text" class="form-input" placeholder="Tên đăng nhập">
+                            </div>
+                            <div class="form-group">
+                                <i class="fas fa-key"></i>
+                                <input name="Matkhau" type="password" class="form-input" placeholder="Mật khẩu">
+                                <div id="eye">
+                                    <i class="far fa-eye"></i>
+                                </div>
+                            </div>
+                            <input style="height:50px;margin-top:-8px;" id="bttt" class="btn btn-success" type="Submit" value="Đăng Nhập" />
+                            <div style="width:300px;" class="question__dangky">
+                                <span style="color:#fff;">Bạn quên Mật Khẩu ?</span><a style="padding-left:10px;" href="@Url.Action("quenMK","Nguoidung")">Quên mật khẩu ?</a>
+                                <span style="color:#fff;">Bạn chưa có tài khoản ?</span><a style="padding-left:10px;" href="@Url.Action("Dangky","Nguoidung")">Đăng ký</a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+
+            }
+        </div>
+
+    </div>
+ 
+</div>
+
+
+
+
+
+@*<div id="wrapper">
+    <form action="" id="form-login">
+        <h1 class="form-heading">Form đăng nhập</h1>
+        <div class="form-group">
+            <i class="far fa-user"></i>
+            <input name="TenDN" type="text" class="form-input" placeholder="Tên đăng nhập">
+        </div>
+        <div class="form-group">
+            <i class="fas fa-key"></i>
+            <input name="Matkhau" type="password" class="form-input" placeholder="Mật khẩu">
+            <div id="eye">
+                <i class="far fa-eye"></i>
+            </div>
+        </div>
+        <input style="height:40px;" id="bttt" class="btn btn-success" type="Submit" value="Đăng Nhập" />
+    </form>
+</div>*@

@@ -1,0 +1,39 @@
+﻿@model DGD.Models.LoaiSP
+
+@{
+    ViewBag.Title = "xoalsp";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>XÓA LOẠI SẢN PHẨM</h2>
+
+<h3>BẠN CHẮC CHẮN MUỐN XÓA LOẠI SẢN PHẨM NÀY?</h3>
+<div style="margin-left:200px;">
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Loại sản phẩm:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiSP1)
+        </dd>
+
+        <dt>
+            Danh mục:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DanhMuc.TenDM)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            @Html.ActionLink("Trở lại", "LoaiSanPham")
+        </div>
+    }
+</div>

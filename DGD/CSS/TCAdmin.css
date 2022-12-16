@@ -1,0 +1,15 @@
+﻿.Admin__right {
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+}
+.dropdown{
+    display:none;
+}
+.Admin__right:hover .dropdown {
+    display: block;
+}
+.TT__Admin {
+    text-decoration: none;
+}

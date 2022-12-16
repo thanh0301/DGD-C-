@@ -1,0 +1,425 @@
+C:\Users\ROG\Desktop\DGD\DGD\bin\DGD.dll.config
+C:\Users\ROG\Desktop\DGD\DGD\bin\DGD.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\DGD.pdb
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\csc.exe
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\csc.exe.config
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\csc.rsp
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\csi.exe
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\csi.exe.config
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\csi.rsp
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.AppContext.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Console.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.IO.Compression.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Net.Http.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.ValueTuple.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\vbc.exe
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\vbc.exe.config
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\vbc.rsp
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\VBCSCompiler.exe
+C:\Users\ROG\Desktop\DGD\DGD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ROG\Desktop\DGD\DGD\bin\Antlr3.Runtime.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\Newtonsoft.Json.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Helpers.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Mvc.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Optimization.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Razor.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.WebPages.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\WebGrease.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Helpers.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Mvc.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Optimization.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.Razor.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.WebPages.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\Newtonsoft.Json.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\Antlr3.Runtime.pdb
+C:\Users\ROG\Desktop\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ROG\Desktop\DGD\DGD\obj\Debug\DGD.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\DGD\DGD\obj\Debug\DGD.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\DGD\DGD\obj\Debug\DGD.csproj.CopyComplete
+C:\Users\ROG\Desktop\DGD\DGD\obj\Debug\DGD.dll
+C:\Users\ROG\Desktop\DGD\DGD\obj\Debug\DGD.pdb
+C:\Users\ROG\Desktop\DGD\DGD\bin\PagedList.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\PagedList.Mvc.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\PagedList.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\PagedList.Mvc.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\DGD.dll.config
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\DGD.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\DGD.pdb
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\csc.exe
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\csc.exe.config
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\csc.rsp
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\csi.exe
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\csi.exe.config
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\csi.rsp
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.AppContext.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Console.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.IO.Compression.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Net.Http.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Net.Sockets.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.ValueTuple.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\vbc.exe
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\vbc.exe.config
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\vbc.rsp
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\VBCSCompiler.exe
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Antlr3.Runtime.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Newtonsoft.Json.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\PagedList.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\PagedList.Mvc.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Helpers.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Mvc.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Optimization.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Razor.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.WebPages.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\WebGrease.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\PagedList.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\PagedList.Mvc.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Helpers.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Mvc.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Optimization.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.Razor.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.WebPages.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Newtonsoft.Json.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Antlr3.Runtime.pdb
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\obj\Debug\DGD.csproj.AssemblyReference.cache
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\obj\Debug\DGD.csproj.CoreCompileInputs.cache
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\obj\Debug\DGD.csproj.CopyComplete
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\obj\Debug\DGD.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\obj\Debug\DGD.pdb
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\PayPal.dll
+C:\Users\phamy\OneDrive\Máy tính\DGD\DGD\bin\PayPal.xml
+C:\Users\ROG\Desktop\DGD\DGD\bin\PayPal.dll
+C:\Users\ROG\Desktop\DGD\DGD\bin\PayPal.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\obj\Debug\DGD.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\taobao\DGD\DGD\obj\Debug\DGD.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\taobao\DGD\DGD\obj\Debug\DGD.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\obj\Debug\DGD.pdb
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\DGD.dll.config
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\DGD.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\DGD.pdb
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\csc.exe
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\csc.exe.config
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\csc.rsp
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\csi.exe
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\csi.exe.config
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\csi.rsp
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.AppContext.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Console.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.IO.Compression.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Net.Http.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.ValueTuple.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\vbc.exe
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\vbc.exe.config
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\vbc.rsp
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\VBCSCompiler.exe
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Antlr3.Runtime.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Newtonsoft.Json.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\PagedList.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\PagedList.Mvc.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\PayPal.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Helpers.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Mvc.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Optimization.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Razor.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.WebPages.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\WebGrease.dll
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\PagedList.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\PagedList.Mvc.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\PayPal.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Helpers.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Mvc.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Optimization.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.Razor.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.WebPages.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Newtonsoft.Json.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Antlr3.Runtime.pdb
+C:\Users\ROG\Desktop\taobao\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ROG\Desktop\taobao\DGD\DGD\obj\Debug\DGD.csproj.CopyComplete
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\DGD.dll.config
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\DGD.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\DGD.pdb
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Antlr3.Runtime.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Newtonsoft.Json.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\PagedList.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\PagedList.Mvc.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\PayPal.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Helpers.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Mvc.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Optimization.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Razor.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.WebPages.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\WebGrease.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\PagedList.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\PagedList.Mvc.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\PayPal.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Helpers.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Mvc.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Optimization.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.Razor.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.WebPages.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Newtonsoft.Json.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Antlr3.Runtime.pdb
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ROG\Desktop\PD3\DGD\DGD\obj\Debug\DGD.csproj.AssemblyReference.cache
+C:\Users\ROG\Desktop\PD3\DGD\DGD\obj\Debug\DGD.csproj.CoreCompileInputs.cache
+C:\Users\ROG\Desktop\PD3\DGD\DGD\obj\Debug\DGD.csproj.CopyComplete
+C:\Users\ROG\Desktop\PD3\DGD\DGD\obj\Debug\DGD.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\obj\Debug\DGD.pdb
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\csc.exe
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\csc.exe.config
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\csc.rsp
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\csi.exe
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\csi.exe.config
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\csi.rsp
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.AppContext.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Console.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.IO.Compression.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Net.Http.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.ValueTuple.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\vbc.exe
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\vbc.exe.config
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\vbc.rsp
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\VBCSCompiler.exe
+C:\Users\ROG\Desktop\PD3\DGD\DGD\bin\roslyn\VBCSCompiler.exe.config
+D:\DGD\DGD\bin\DGD.dll.config
+D:\DGD\DGD\bin\DGD.dll
+D:\DGD\DGD\bin\DGD.pdb
+D:\DGD\DGD\bin\roslyn\csc.exe
+D:\DGD\DGD\bin\roslyn\csc.exe.config
+D:\DGD\DGD\bin\roslyn\csc.rsp
+D:\DGD\DGD\bin\roslyn\csi.exe
+D:\DGD\DGD\bin\roslyn\csi.exe.config
+D:\DGD\DGD\bin\roslyn\csi.rsp
+D:\DGD\DGD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DGD\DGD\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DGD\DGD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DGD\DGD\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\DGD\DGD\bin\roslyn\System.AppContext.dll
+D:\DGD\DGD\bin\roslyn\System.Collections.Immutable.dll
+D:\DGD\DGD\bin\roslyn\System.Console.dll
+D:\DGD\DGD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\DGD\DGD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DGD\DGD\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DGD\DGD\bin\roslyn\System.Globalization.Calendars.dll
+D:\DGD\DGD\bin\roslyn\System.IO.Compression.dll
+D:\DGD\DGD\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\DGD\DGD\bin\roslyn\System.IO.FileSystem.dll
+D:\DGD\DGD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DGD\DGD\bin\roslyn\System.Net.Http.dll
+D:\DGD\DGD\bin\roslyn\System.Net.Sockets.dll
+D:\DGD\DGD\bin\roslyn\System.Reflection.Metadata.dll
+D:\DGD\DGD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\DGD\DGD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DGD\DGD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DGD\DGD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DGD\DGD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DGD\DGD\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DGD\DGD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\DGD\DGD\bin\roslyn\System.ValueTuple.dll
+D:\DGD\DGD\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DGD\DGD\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DGD\DGD\bin\roslyn\System.Xml.XPath.dll
+D:\DGD\DGD\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DGD\DGD\bin\roslyn\vbc.exe
+D:\DGD\DGD\bin\roslyn\vbc.exe.config
+D:\DGD\DGD\bin\roslyn\vbc.rsp
+D:\DGD\DGD\bin\roslyn\VBCSCompiler.exe
+D:\DGD\DGD\bin\roslyn\VBCSCompiler.exe.config
+D:\DGD\DGD\bin\Antlr3.Runtime.dll
+D:\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DGD\DGD\bin\Microsoft.Web.Infrastructure.dll
+D:\DGD\DGD\bin\Newtonsoft.Json.dll
+D:\DGD\DGD\bin\PagedList.dll
+D:\DGD\DGD\bin\PagedList.Mvc.dll
+D:\DGD\DGD\bin\PayPal.dll
+D:\DGD\DGD\bin\System.Web.Helpers.dll
+D:\DGD\DGD\bin\System.Web.Mvc.dll
+D:\DGD\DGD\bin\System.Web.Optimization.dll
+D:\DGD\DGD\bin\System.Web.Razor.dll
+D:\DGD\DGD\bin\System.Web.WebPages.Deployment.dll
+D:\DGD\DGD\bin\System.Web.WebPages.dll
+D:\DGD\DGD\bin\System.Web.WebPages.Razor.dll
+D:\DGD\DGD\bin\WebGrease.dll
+D:\DGD\DGD\bin\PagedList.xml
+D:\DGD\DGD\bin\PagedList.Mvc.xml
+D:\DGD\DGD\bin\PayPal.xml
+D:\DGD\DGD\bin\System.Web.Helpers.xml
+D:\DGD\DGD\bin\System.Web.Mvc.xml
+D:\DGD\DGD\bin\System.Web.Optimization.xml
+D:\DGD\DGD\bin\System.Web.Razor.xml
+D:\DGD\DGD\bin\System.Web.WebPages.xml
+D:\DGD\DGD\bin\System.Web.WebPages.Deployment.xml
+D:\DGD\DGD\bin\System.Web.WebPages.Razor.xml
+D:\DGD\DGD\bin\Newtonsoft.Json.xml
+D:\DGD\DGD\bin\Antlr3.Runtime.pdb
+D:\DGD\DGD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DGD\DGD\obj\Debug\DGD.csproj.AssemblyReference.cache
+D:\DGD\DGD\obj\Debug\DGD.csproj.CoreCompileInputs.cache
+D:\DGD\DGD\obj\Debug\DGD.csproj.CopyComplete
+D:\DGD\DGD\obj\Debug\DGD.dll
+D:\DGD\DGD\obj\Debug\DGD.pdb

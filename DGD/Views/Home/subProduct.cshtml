@@ -1,0 +1,25 @@
+﻿@model IEnumerable<DGD.Models.SanPham>
+@using DGD.Models
+
+
+<div class="grid-container__sp">
+    @foreach (var sanpham in Model)
+    {<div class="item_spnew">
+    <div class="product">
+        <div class="left__spnew">
+            <img style="border-radius:10px;" alt="@sanpham.TenSp"  lazy-src="~/image/@sanpham.anh" width="270px" />
+        </div>
+       <div class="right__spnew">
+           <div class="list__tytle__sp">
+               <a href="@Url.Action("Detail", "Home" , new { id = sanpham.MaSP})" class="namePro">@sanpham.TenSp</a>
+               <h3 class="price">@String.Format("{0:0,0}", sanpham.GiaBan) VNĐ</h3>
+               <a href="@Url.Action("ThemGiohang","Giohang", new { @iSanP= sanpham.MaSP , @strURL = Request.Url.ToString() })"> <i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+           </div>
+       </div>
+       
+    </div>
+</div>
+    }
+
+
+</div>

@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    table, tr ,td{
+        border:1px solid;
+        padding:20px 20px;
+        margin:20px 400px;
+        font-size:20px;
+        width:500px;
+    }
+    .btn {
+        display: table;
+    }
+    .btn__tragop {
+        margin-top: 20px;
+    }
+    .btn__trathe {
+        margin-top: 20px;
+    }
+</style>
+<div class="container">
+
+    <div class="content__item" style="display:flex ; padding: 40px 40px">
+        <div style="width:500px;height:300px;" >
+            <img width="500px" src="~/image/@Model.anh" />
+        </div>
+
+        <div class="post" style="padding-left:50px">
+
+            <h3>Tên Sản Phẩm : @Model.TenSp</h3>
+            <span style="font-size:20px;">Giá Bán : @Model.GiaBan VND</span>
+
+            <div class="btn" style="border:1px ; padding: 10px 30px ; background-color:gainsboro; ">
+                <a href="@Url.Action("ThemGiohang","Giohang", new { @iSanP= @Model.MaSP , @strURL=Request.Url.ToString() })"> Đặt mua</a>
+            </div>
+
+            <div class="btn" style="border:1px ; padding: 10px 30px ; background-color:gainsboro; ">
+                <a href="@Url.Action("ThemYeuThich","YeuThich", new { @masp= @Model.MaSP , @strURL=Request.Url.ToString() })"> Yêu thích</a>
+            </div>
+
+            <div style="display:flex;justify-content:space-between;">
+                <div class="btn__tragop" style="border:1px ; padding: 10px 30px ; background-color:gainsboro">
+                    <a href="#"> Mua trả góp</a>
+                </div>
+
+                <div class="btn__trathe" style="border:1px ; padding: 10px 30px ; background-color:gainsboro">
+                    <a href="#"> Mua trả thẻ</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="container" >
+    <h2>Mô tả sản phẩm</h2>
+    <span style="font-size:20px;">@Model.Mota</span>
+</div>
+
+<div class="container">
+    <h2>Thông số kỹ thuật</h2>
+    <table style="border:1px solid">
+        <tr>
+            <td>Loại tivi:</td>
+            <td> Smart Tivi QLED 4K 43 inch Samsung QA43Q65A</td>
+        </tr>
+
+        <tr>
+            <td>Hệ điều hành</td>
+            <td> Tizen Android 5.5</td>
+        </tr>
+
+        <tr>
+            <td>Ứng dụng phổ biến</td>
+            <td> Clip TVFPT PlayGalaxy Play (Fim+)MyTVPOPS KidsSpotifyVTVcab ON</td>
+        </tr>
+
+        <tr>
+            
+            <td>Công nghệ hình ảnh:</td>
+            <td> Chuyển động mượt Motion XceleratorDynamic Crystal ColorHDR10+Kiểm soát đèn nền UHD DimmingPurColor</td>
+        </tr>
+
+        <tr>
+            <td>Chiếu hình từ điện thoại lên TV</td>
+            <td>AirPlay 2Screen MirroringTap View</td>
+        </tr>
+
+        <tr>
+            <td>Kích thước:</td>
+            <td>Ngang 123 cm - Cao 77.6 cm - Dày 25 cm</td>
+        </tr>
+
+        <tr>
+            <td>
+                Năm ra mắt:
+            </td>
+            <td>2022</td>
+        </tr>
+
+        <tr>
+            <td>Hãng</td>
+            <td> Samsung</td>
+        </tr>
+    </table>
+</div>
+
